@@ -18,10 +18,10 @@ public class PropertiesReader implements IResource{
             Properties prop = new Properties();
             prop.load(input);
 
-
             for(Object key: prop.keySet()) {
                 props.put((String)key, prop.getProperty((String)key));
             }
+            return props;
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -5,4 +5,6 @@ import java.sql.SQLException;
 
 public interface IDbExecutor {
     public ResultSet execute(String sqlRequest) throws SQLException;
+
+    //void close() throws SQLException;
 }

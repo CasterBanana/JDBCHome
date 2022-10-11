@@ -66,14 +66,5 @@ public class Sql extends MySqlDbExecutor {
                 "JOIN Curator as cr\n" +
                 "ON gr.id_curator = cr.id");
 
-
-
-
-
-
-
-
-
-
     }
 }
